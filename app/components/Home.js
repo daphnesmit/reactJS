@@ -1,7 +1,7 @@
 var React = require('react');
 
 var Home = React.createClass({
-    render:function(){
+    render: function(){
         return (
             <h2 className="text-center">
                 Search by Github Username Above
@@ -9,3 +9,6 @@ var Home = React.createClass({
         )
     }
 });
+
+
+module.exports = Home;
