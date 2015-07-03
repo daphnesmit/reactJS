@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "reactJS",
   "version": "1.0.0",
   "description": "React JS egghead lessons",
   "main": "index.js",
@@ -16,5 +16,14 @@
     "url": "https://github.com/daphnesmit/reactJS/issues"
   },
   "homepage": "https://github.com/daphnesmit/reactJS",
-  "dependencies": {}
+  "dependencies": {
+    "react": "^0.13.3",
+    "react-router": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.2.2",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.10.1"
+  }
 }
